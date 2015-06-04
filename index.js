@@ -16,8 +16,8 @@ function get(date, prop, utc) {
   return date['get' + (utc && run[1]? 'UTC' : '') + run[0]]();
 }
 
-// second element flags if their is a UTC version
-// of that function
+// second element flags if there is 
+// a UTC version of that function
 var hash = {
   time: ['Time', false],
   timezone: ['TimezoneOffset', false],
