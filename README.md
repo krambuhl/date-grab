@@ -42,7 +42,7 @@ grab | date
 
 ### options
 
-####utc
+### utc
 
 Setting `utc` to `true` will use UTC instead of local date functions.
 
@@ -50,5 +50,5 @@ Setting `utc` to `true` will use UTC instead of local date functions.
 var now = new Date()
 var utcHours = grab('hours', { utc: true })
 
-utcHours(now) === now.getHours() // true
+utcHours(now) === now.getUTCHours() // true
 ```

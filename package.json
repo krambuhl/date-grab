@@ -2,7 +2,7 @@
   "name": "date-grab",
   "description": "Functional wrapper for getting date properties",
   "homepage": "https://github.com/krambuhl/date-grab",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
